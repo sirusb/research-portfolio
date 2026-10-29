@@ -16,7 +16,11 @@
   "topics": [
     "Multi-omics integration",
     "Single-cell & spatial",
-    "Genomics & epigenomics"
+    "Genomics & epigenomics",
+    "Microbiome & metabolomics",
+    "Clinical cohorts & phenotypes",
+    "Machine learning & statistics",
+    "Bioinformatics & computational biology"
   ],
   "institutions": [
     "Sidra Medicine",
