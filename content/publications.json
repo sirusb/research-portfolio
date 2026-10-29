@@ -26,7 +26,7 @@
     "year": 2026,
     "venue": "Frontiers in Immunology",
     "type": "Article",
-    "selected": true,
+    "selected": false,
     "url": "https://doi.org/10.3389/fimmu.2026.1792996"
   },
   {
@@ -81,7 +81,7 @@
     "year": 2025,
     "venue": "Genome Biology",
     "type": "Article",
-    "selected": false
+    "selected": true
   },
   {
     "id": 9,
@@ -90,7 +90,7 @@
     "year": 2025,
     "venue": "Frontiers in Cellular and Infection Microbiology",
     "type": "Article",
-    "selected": false
+    "selected": true
   },
   {
     "id": 10,
@@ -99,7 +99,7 @@
     "year": 2025,
     "venue": "Developmental Cell",
     "type": "Article",
-    "selected": false
+    "selected": true
   },
   {
     "id": 11,
@@ -108,7 +108,7 @@
     "year": 2025,
     "venue": "Scientific Reports",
     "type": "Article",
-    "selected": false
+    "selected": true
   },
   {
     "id": 12,
@@ -135,7 +135,7 @@
     "year": 2024,
     "venue": "PLOS Biology",
     "type": "Article",
-    "selected": false
+    "selected": true
   },
   {
     "id": 15,
@@ -190,7 +190,7 @@
     "year": 2023,
     "venue": "Nature Communications",
     "type": "Article",
-    "selected": false
+    "selected": true
   },
   {
     "id": 21,
