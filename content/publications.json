@@ -1,5 +1,15 @@
 [
   {
+    "id": 46,
+    "title": "Loss-of-function variants in CFAP57, SEPTIN4, SPEM2, and CFAP46 cause asthenoteratozoospermia",
+    "authors": "Nawaz, S., Kitakaze, H., Abdulla, M.A., Khan, N., Miyata, H., Djekidel MN, Ata, M., Kaneda, Y., Khan, H., Khan, I., et al.",
+    "year": 2026,
+    "venue": "Human Reproduction",
+    "type": "Article",
+    "selected": true,
+    "url": "https://doi.org/10.1093/humrep/deag154"
+  },
+  {
     "id": 1,
     "title": "Divergent medulloblastoma chromatin states disclose KDM2B as a selective dependency",
     "authors": "Tao, R., Erkek-Ozhan, S., Xu, B., Matsui, Y., Mittal, P., Smith, K.S., Li, Y., Filipovic, D., Xu, R., Gao, Q., et al. (incl. Djekidel MN)",
@@ -18,16 +28,6 @@
     "type": "Article",
     "selected": true,
     "url": "https://doi.org/10.3389/fimmu.2026.1792996"
-  },
-  {
-    "id": 46,
-    "title": "Loss-of-function variants in CFAP57, SEPTIN4, SPEM2, and CFAP46 cause asthenoteratozoospermia",
-    "authors": "Nawaz, S., Kitakaze, H., Abdulla, M.A., Khan, N., Miyata, H., Djekidel MN, Ata, M., Kaneda, Y., Khan, H., Khan, I., et al.",
-    "year": 2026,
-    "venue": "Human Reproduction",
-    "type": "Article",
-    "selected": true,
-    "url": "https://doi.org/10.1093/humrep/deag154"
   },
   {
     "id": 3,
