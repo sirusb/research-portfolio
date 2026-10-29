@@ -1,10 +1,10 @@
 # Mohamed Nadhir Djekidel — Research Portfolio
 
-A responsive academic portfolio with an editorial layout, self-hosted typography, light and dark themes, searchable publications, and a downloadable CV. Content is based on [`docs/MND_CV_Oct2026.pdf`](docs/MND_CV_Oct2026.pdf).
+A responsive academic portfolio with a white background, self-hosted Source Sans Pro typography, an optional dark theme, searchable publications, and a downloadable CV. Content is based on [`docs/MND_CV_Oct2026.pdf`](docs/MND_CV_Oct2026.pdf).
 
 The downloadable CV is a public copy with the phone number and telephone link removed.
 
-The site uses plain HTML, CSS, and JavaScript. The generated `index.html` includes all content, so reading and navigation work without JavaScript or a network connection. JavaScript adds publication search, year filters, selected/all views, active navigation, and a saved theme preference.
+The site uses plain HTML, CSS, and JavaScript. The generated `index.html` includes all content, so reading and navigation work without JavaScript or a network connection. JavaScript adds publication search, year filters, selected/all views, active navigation, and a saved theme preference. The white theme is the default, including on devices set to dark mode.
 
 ## Preview
 
@@ -42,4 +42,4 @@ The existing GitHub Actions workflow deploys the static site on pushes to `main`
 
 The design draws on [Minimal Light](https://github.com/yaoyao-liu/minimal-light)’s compact academic profile and publication hierarchy, [HugoBlox Academic CV](https://github.com/HugoBlox/hugo-theme-academic-cv)’s research and career organization, and [UI Skills](https://github.com/ibelick/ui-skills)’ guidance on restrained styling, native controls, contrast, and keyboard access. This is a custom implementation, without either theme as a dependency.
 
-[Lora](https://fonts.google.com/specimen/Lora) and [Source Sans 3](https://fonts.google.com/specimen/Source+Sans+3) are self-hosted as Latin WOFF2 subsets. Their SIL Open Font License files are included in `assets/fonts/`.
+[Source Sans Pro](https://github.com/adobe-fonts/source-sans), also used by [Hugging Face](https://huggingface.co/), is self-hosted in regular, semibold, and bold Latin WOFF2 subsets. Its SIL Open Font License is included in `assets/fonts/`.

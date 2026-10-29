@@ -1,15 +1,11 @@
-// Apply the saved theme before the first paint. Storage is optional.
+// Use the white theme by default; remember only explicit theme choices.
 (() => {
-  let theme;
+  let theme = "light";
   try {
-    theme = localStorage.getItem("portfolio-theme");
+    const saved = localStorage.getItem("portfolio-theme-v2");
+    if (["light", "dark"].includes(saved)) theme = saved;
   } catch {
-    /* Use system preference. */
-  }
-  if (!["light", "dark"].includes(theme)) {
-    theme = window.matchMedia("(prefers-color-scheme: dark)").matches
-      ? "dark"
-      : "light";
+    /* Keep the default white theme when storage is unavailable. */
   }
   document.documentElement.dataset.theme = theme;
 })();

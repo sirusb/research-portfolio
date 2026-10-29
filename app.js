@@ -3,10 +3,9 @@
 
   const root = document.documentElement;
   const themeButton = document.querySelector(".theme-toggle");
-  const systemTheme = window.matchMedia("(prefers-color-scheme: dark)");
   let savedTheme;
   try {
-    savedTheme = localStorage.getItem("portfolio-theme");
+    savedTheme = localStorage.getItem("portfolio-theme-v2");
   } catch {
     /* Storage may be unavailable. */
   }
@@ -18,22 +17,19 @@
     themeButton?.setAttribute("aria-label", `Switch to ${next} theme`);
     themeButton?.setAttribute("title", `Switch to ${next} theme`);
   };
-  applyTheme(savedTheme || (systemTheme.matches ? "dark" : "light"));
+  applyTheme(savedTheme || "light");
   if (themeButton) {
     themeButton.hidden = false;
     themeButton.addEventListener("click", () => {
       savedTheme = root.dataset.theme === "dark" ? "light" : "dark";
       applyTheme(savedTheme);
       try {
-        localStorage.setItem("portfolio-theme", savedTheme);
+        localStorage.setItem("portfolio-theme-v2", savedTheme);
       } catch {
         /* Keep the session theme. */
       }
     });
   }
-  systemTheme.addEventListener("change", (event) => {
-    if (!savedTheme) applyTheme(event.matches ? "dark" : "light");
-  });
 
   const navLinks = [...document.querySelectorAll("[data-section-link]")];
   const sections = [...document.querySelectorAll("[data-section]")];
