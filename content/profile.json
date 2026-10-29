@@ -1,0 +1,113 @@
+{
+  "name": "Mohamed Nadhir Djekidel",
+  "role": "Ph.D. · Staff Scientist",
+  "affiliation": "Sidra Medicine",
+  "location": "Doha, Qatar",
+  "email": "mdjekidel1@sidra.org",
+  "cv": "docs/MND_CV_Oct2026.pdf",
+  "updated": "October 2026",
+  "year": 2026,
+  "scholar": "https://scholar.google.com/citations?user=M2b_x_8AAAAJ",
+  "github": "https://github.com/sirusb",
+  "linkedin": "https://www.linkedin.com/in/djeknad",
+  "website": "https://www.bioinfo4arabs.com",
+  "headline": "Understanding biology",
+  "headlineEmphasis": "through data.",
+  "topics": [
+    "Multi-omics integration",
+    "Single-cell & spatial",
+    "Genomics & epigenomics"
+  ],
+  "institutions": [
+    "Sidra Medicine",
+    "St. Jude Children’s Research Hospital",
+    "Harvard Medical School"
+  ],
+  "research": [
+    {
+      "icon": "omics",
+      "title": "Connecting the omics",
+      "description": "Integrating microbiome, transcriptome, epigenome, metabolome, proteomics, and clinical data to understand complex biological systems.",
+      "keywords": "Multi-omics · Microbiome · Genomics"
+    },
+    {
+      "icon": "cells",
+      "title": "Decoding cell states",
+      "description": "Studying gene regulation, chromatin interactions, and cellular diversity with epigenomics, single-cell analysis, and spatial transcriptomics.",
+      "keywords": "Epigenomics · Single-cell · Spatial"
+    },
+    {
+      "icon": "compute",
+      "title": "Building tools for discovery",
+      "description": "Developing computational methods and reproducible bioinformatics workflows for chromatin interactions, sequencing data, and multi-omics analysis.",
+      "keywords": "Algorithms · Workflows · Research software"
+    }
+  ],
+  "experience": [
+    {
+      "dates": "Aug 2023 – Present",
+      "role": "Staff Scientist — Assistant level",
+      "institution": "Sidra Medicine",
+      "division": "Perinatal and Reproductive Health Division",
+      "description": "Lead the development, validation, and analysis of transcriptomic, microbiome, epigenomic, and genetics pipelines. Contribute to grants and research publications, and train and supervise junior staff."
+    },
+    {
+      "dates": "Sep 2020 – Jul 2023",
+      "role": "Senior Bioinformatics Research Scientist",
+      "institution": "St. Jude Children’s Research Hospital",
+      "division": "Center of Applied Bioinformatics · Epigenetics group",
+      "description": "Developed epigenetics, single-cell, and spatial analysis pipelines, and machine learning methods for pediatric leukemia classification. Collaborated on neuroscience, cancer, and molecular science projects."
+    },
+    {
+      "dates": "Oct 2016 – Sep 2020",
+      "role": "Postdoctoral Research Fellow",
+      "institution": "Harvard Medical School",
+      "division": "Yi Zhang lab",
+      "description": "Led and co-led research on preimplantation embryo development and neuroscience. Built pipelines for low-input sequencing, single-cell RNA-seq, and MERFISH spatial transcriptomics, applying statistical and machine learning methods."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Ph.D. in Bioinformatics",
+      "institution": "Tsinghua University",
+      "location": "Beijing, China",
+      "dates": "Oct 2012 – Apr 2016"
+    },
+    {
+      "degree": "M.Sc. in Computer Science",
+      "institution": "Central South University",
+      "location": "Changsha, China · Bioinformatics",
+      "dates": "Oct 2009 – Jul 2012"
+    },
+    {
+      "degree": "Engineering in Computer Science",
+      "institution": "École Nationale Supérieure d’Informatique",
+      "location": "Algiers, Algeria · Computing Systems",
+      "dates": "Oct 2003 – Jun 2008"
+    },
+    {
+      "degree": "Mandarin Language Certificate",
+      "institution": "Changsha, China",
+      "location": "Chinese language studies",
+      "dates": "Oct 2008 – Jul 2009"
+    }
+  ],
+  "teaching": [
+    {
+      "dates": "2024",
+      "title": "16S Data Analysis Workshop",
+      "description": "MENA Microbiome Conference · 16S rRNA data analysis · Doha, Qatar"
+    },
+    {
+      "dates": "2020 – 2023",
+      "title": "Epigenetics & Single-Cell Bioinformatics",
+      "description": "Educational seminars · St. Jude Children’s Research Hospital"
+    },
+    {
+      "dates": "2020 – 2022",
+      "title": "Machine Learning Educational Seminars",
+      "description": "St. Jude Children’s Research Hospital"
+    }
+  ],
+  "discipline": "Computational biologist (bioinformatician)"
+}

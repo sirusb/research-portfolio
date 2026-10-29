@@ -21,6 +21,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Generate portfolio from content
+        run: python3 scripts/build.py
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 

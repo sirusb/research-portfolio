@@ -1,0 +1,413 @@
+[
+  {
+    "id": 1,
+    "title": "miRNA profiling shows shared signatures in pediatric asthma, obesity and their comorbidity",
+    "authors": "Shailesh, H., Djekidel MN, Noor, S., Hayati, L., Worgall, S., Al Khodor, S., & Janahi, I.",
+    "year": 2026,
+    "venue": "Frontiers in Immunology",
+    "type": "Article",
+    "selected": true,
+    "url": "https://doi.org/10.3389/fimmu.2026.1792996"
+  },
+  {
+    "id": 2,
+    "title": "Divergent medulloblastoma chromatin states disclose KDM2B as a selective dependency",
+    "authors": "Tao, R., Erkek-Ozhan, S., Xu, B., Matsui, Y., Mittal, P., Smith, K.S., Li, Y., Filipovic, D., Xu, R., Gao, Q., et al. (incl. Djekidel MN)",
+    "year": 2026,
+    "venue": "Nature Genetics",
+    "type": "Article",
+    "selected": true,
+    "url": "https://doi.org/10.1038/s41588-026-02745-1"
+  },
+  {
+    "id": 3,
+    "title": "High-fat diet causes rapid loss of intestinal group 3 innate lymphoid cells through microbiota-driven inflammation and mitochondrial stress",
+    "authors": "Torrico, E.C., Kaptein, P., Laalouhmi, F., Mitsialis, V., El Guendouzi, S., El Khayari, A., El Baha, C., Htite, E.D., Chawluk, S., Gauthier, C.D., et al. (incl. Djekidel MN)",
+    "year": 2026,
+    "venue": "Immunity",
+    "type": "Article",
+    "selected": false
+  },
+  {
+    "id": 4,
+    "title": "Cross-species insemination reveals mouse sperm ability to enter and cross the fish micropyle",
+    "authors": "Garibova, S., Stickler, E., Al Ali, F., Abdulla, M.A., Sathappan, A., Da’as, S.I., Ghanem, L., Djekidel MN, Portman, R., & Avella, M.",
+    "year": 2025,
+    "venue": "eLife",
+    "type": "Article",
+    "selected": false
+  },
+  {
+    "id": 5,
+    "title": "Mutational disruption of transcription factors binding and regulatory networks in a case of unexplained total fertilization failure",
+    "authors": "Ata, M., Choucair, F., Djekidel MN, Sousa Esteves, M., Al Ali, F., Nawaz, S., El Taha, L., Soloviov, O., Sathappan, A., Aliyev, E., et al.",
+    "year": 2025,
+    "venue": "Journal of Translational Medicine",
+    "type": "Article",
+    "selected": false
+  },
+  {
+    "id": 6,
+    "title": "MicroRNA signatures of pediatric obesity-associated asthma: identifying molecular links between obesity and asthma in children",
+    "authors": "Shailesh, H., Rao, R., Noor, S., Hayati, L., Djekidel MN, & Janahi, I.",
+    "year": 2025,
+    "venue": "Allergy",
+    "type": "Abstract",
+    "selected": false
+  },
+  {
+    "id": 7,
+    "title": "Dietary fiber and fatty acids may impact clinical outcomes in pediatric obesity-associated asthma: insights from the SOAP study",
+    "authors": "Al-Dasooqi, D.S., Shailesh, H., Djekidel MN, Alabduljabbar, S., Ahmed, S.H., Olabi, Y., Shallouf, N., Hani, Y., Janahi, I., & Terranegra, A.",
+    "year": 2025,
+    "venue": "Frontiers in Nutrition",
+    "type": "Article",
+    "selected": false
+  },
+  {
+    "id": 8,
+    "title": "Deciphering the role of RNA in regulating CTCF’s DNA binding affinity in leukemia cells",
+    "authors": "Hyle, J., Qi, W., Djekidel MN, Rosikiewicz, W., Xu, B., & Li, C.",
+    "year": 2025,
+    "venue": "Genome Biology",
+    "type": "Article",
+    "selected": false
+  },
+  {
+    "id": 9,
+    "title": "Exploring the composition of the placental microbiome and its potential origin in preterm birth",
+    "authors": "Saadaoui, M., Djekidel MN, Murugesan, S., Kumar, M., Elhag, D., Singh, P., Kabeer, B.S.A., Marr, A.K., Kino, T., Brummaier, T., et al.",
+    "year": 2025,
+    "venue": "Frontiers in Cellular and Infection Microbiology",
+    "type": "Article",
+    "selected": false
+  },
+  {
+    "id": 10,
+    "title": "Latent epigenetic programs in Müller glia contribute to stress and disease response in the retina",
+    "authors": "Norrie, J.L., Lupo, M.S., Little, D.R., Shirinifard, A., Mishra, A., Zhang, Q., Geiger, N., Putnam, D., Djekidel MN, Ramirez, C., et al.",
+    "year": 2025,
+    "venue": "Developmental Cell",
+    "type": "Article",
+    "selected": false
+  },
+  {
+    "id": 11,
+    "title": "Distinctive blood and salivary proteomics signatures in Qatari individuals at high risk for cardiovascular disease",
+    "authors": "Yousif, G., Murugesan, S., Djekidel MN, Terranegra, A., Gentilcore, G., Grivel, J.C., & Al Khodor, S.",
+    "year": 2025,
+    "venue": "Scientific Reports",
+    "type": "Article",
+    "selected": false
+  },
+  {
+    "id": 12,
+    "title": "EPCO-22. Divergent medulloblastoma chromatin states disclose KDM2B as a selective dependency",
+    "authors": "Tao, R., Erkek-Ozhan, S., Xu, B., Matsui, Y., Mittal, P., Smith, K., Li, Y., Gao, Q., Darrow, E., Xu, R., et al.",
+    "year": 2025,
+    "venue": "Neuro-Oncology",
+    "type": "Abstract",
+    "selected": false
+  },
+  {
+    "id": 13,
+    "title": "Microbial and proteomic signatures of type 2 diabetes in an Arab population",
+    "authors": "Murugesan, S., Yousif, G., Djekidel MN, Gentilcore, G., Grivel, J.C., & Al Khodor, S.",
+    "year": 2024,
+    "venue": "Journal of Translational Medicine",
+    "type": "Article",
+    "selected": false
+  },
+  {
+    "id": 14,
+    "title": "Phosphorylation of the DNA damage repair factor 53BP1 by ATM kinase controls neurodevelopmental programs in cortical brain organoids",
+    "authors": "Lim, B., Matsui, Y., Jung, S., Djekidel MN, Qi, W., Yuan, Z.F., Wang, X., Yang, X., Connolly, N., Pilehroud, A.S., et al.",
+    "year": 2024,
+    "venue": "PLOS Biology",
+    "type": "Article",
+    "selected": false
+  },
+  {
+    "id": 15,
+    "title": "Diagnostic utility of DNA methylation analysis in genetically unsolved pediatric epilepsies and CHD2 episignature refinement",
+    "authors": "LaFlamme, C.W., Rastin, C., Sengupta, S., Pennington, H.E., Russ-Hall, S.J., Schneider, A.L., Bonkowski, E.S., Almanza Fuerte, E.P., Allan, T.J., Zalusky, M.P.G., Djekidel MN, et al.",
+    "year": 2024,
+    "venue": "Nature Communications",
+    "type": "Article",
+    "selected": false
+  },
+  {
+    "id": 16,
+    "title": "Dynamic Foxp3–chromatin interaction controls tunable Treg cell function",
+    "authors": "He, M., Zong, X., Xu, B., Qi, W., Huang, W., Djekidel MN, Zhang, Y., Pagala, V.R., Li, J., Hao, X., et al.",
+    "year": 2024,
+    "venue": "Journal of Experimental Medicine",
+    "type": "Article",
+    "selected": false
+  },
+  {
+    "id": 17,
+    "title": "Antitumor progenitor exhausted CD8+ T cells are sustained by TCR engagement",
+    "authors": "Lan, X., Mi, T., Alli, S., Guy, C., Djekidel MN, Liu, X., Boi, S., Chowdhury, P., He, M., Zehn, D., et al.",
+    "year": 2024,
+    "venue": "Nature Immunology",
+    "type": "Article",
+    "selected": false
+  },
+  {
+    "id": 18,
+    "title": "MDB-10. Divergent medulloblastoma chromatin states disclose KDM2B as a novel oncogenic dependency",
+    "authors": "Tao, R., Erkek, S., Matsui, Y., Xu, B., Smith, K.S., Gao, Q., Li, Y., Djekidel N, Darrow, E., Kumar, R., et al.",
+    "year": 2024,
+    "venue": "Neuro-Oncology",
+    "type": "Abstract",
+    "selected": false
+  },
+  {
+    "id": 19,
+    "title": "Spatial transcriptomics reveals the distinct organization of mouse prefrontal cortex and neuronal subtypes regulating chronic pain",
+    "authors": "Bhattacherjee, A., Zhang, C., Watson, B.R., Djekidel MN, Moffitt, J.R., & Zhang, Y.",
+    "year": 2023,
+    "venue": "Nature Neuroscience",
+    "type": "Article",
+    "selected": true,
+    "url": "https://doi.org/10.1038/s41593-023-01455-9"
+  },
+  {
+    "id": 20,
+    "title": "SNIP1 and PRC2 coordinate cell fates of neural progenitors during brain development",
+    "authors": "Matsui, Y., Djekidel MN, Lindsay, K., Samir, P., Connolly, N., Wu, G., Yang, X., Fan, Y., Xu, B., & Peng, J.C.",
+    "year": 2023,
+    "venue": "Nature Communications",
+    "type": "Article",
+    "selected": false
+  },
+  {
+    "id": 21,
+    "title": "Auxin-inducible degron 2 system deciphers functions of CTCF domains in transcriptional regulation",
+    "authors": "Hyle, J., Djekidel MN, Williams, J., Wright, S., Shao, Y., Xu, B., & Li, C.",
+    "year": 2023,
+    "venue": "Genome Biology",
+    "type": "Article",
+    "selected": false
+  },
+  {
+    "id": 22,
+    "title": "Interrogating bromodomain inhibitor resistance in KMT2A-rearranged leukemia through combinatorial CRISPR screens",
+    "authors": "Wright, S., Hu, J., Wang, H., Hyle, J., Zhang, Y., Du, G., Konopleva, M.Y., Kornblau, S.M., Djekidel MN, Rosikiewicz, W., et al.",
+    "year": 2023,
+    "venue": "Proceedings of the National Academy of Sciences",
+    "type": "Article",
+    "selected": false
+  },
+  {
+    "id": 23,
+    "title": "PAX3-FOXO1 dictates myogenic reprogramming and rhabdomyosarcoma identity in endothelial progenitors",
+    "authors": "Searcy, M.B., Larsen IV, R.K., Stevens, B.T., Zhang, Y., Jin, H., Drummond, C.J., Langdon, C.G., Gadek, K.E., Vuong, K., Reed, K.B., et al. (incl. Djekidel MN)",
+    "year": 2023,
+    "venue": "Nature Communications",
+    "type": "Article",
+    "selected": false
+  },
+  {
+    "id": 24,
+    "title": "Gene Expression Machine Learning Models Classify Pediatric AML Subtypes with High Performance",
+    "authors": "Shah, K., Ma, J., Djekidel MN, Song, G., Umeda, M., Fan, Y., Wu, G., & Klco, J.",
+    "year": 2023,
+    "venue": "Blood",
+    "type": "Abstract",
+    "selected": false
+  },
+  {
+    "id": 25,
+    "title": "Cell type–specific mechanism of Setd1a heterozygosity in schizophrenia pathogenesis",
+    "authors": "Chen, R., Liu, Y., Djekidel MN, Chen, W., Bhattacherjee, A., Chen, Z., Scolnick, E., & Zhang, Y.",
+    "year": 2022,
+    "venue": "Science Advances",
+    "type": "Article",
+    "selected": false
+  },
+  {
+    "id": 26,
+    "title": "Package ‘uwot’",
+    "authors": "Melville, J., Lun, A., Djekidel MN, Hao, Y., Eddelbuettel, D., & van der Bijl, W.",
+    "year": 2022,
+    "venue": "CRAN",
+    "type": "Software",
+    "selected": false
+  },
+  {
+    "id": 27,
+    "title": "eccDNAs are apoptotic products with high innate immunostimulatory activity",
+    "authors": "Wang, Y., Wang, M., Djekidel MN, Chen, H., Liu, D., Alt, F.W., & Zhang, Y.",
+    "year": 2021,
+    "venue": "Nature",
+    "type": "Article",
+    "selected": true,
+    "url": "https://doi.org/10.1038/s41586-021-04009-w"
+  },
+  {
+    "id": 28,
+    "title": "Acute depletion of CTCF rewires genome-wide chromatin accessibility",
+    "authors": "Xu, B., Wang, H., Wright, S., Hyle, J., Zhang, Y., Shao, Y., Niu, M., Fan, Y., Rosikiewicz, W., Djekidel MN, et al.",
+    "year": 2021,
+    "venue": "Genome Biology",
+    "type": "Article",
+    "selected": false
+  },
+  {
+    "id": 29,
+    "title": "Distinct dynamics and functions of H2AK119ub1 and H3K27me3 in mouse preimplantation embryos",
+    "authors": "Chen, Z., Djekidel MN, & Zhang, Y.",
+    "year": 2021,
+    "venue": "Nature Genetics",
+    "type": "Article",
+    "selected": false
+  },
+  {
+    "id": 30,
+    "title": "CovidExpress: an interactive portal for intuitive investigation on SARS-CoV-2 related transcriptomes",
+    "authors": "Djekidel MN, Rosikiewicz, W., Peng, J.C., Kanneganti, T.D., Hui, Y., Jin, H., Hedges, D., Schreiner, P., Fan, Y., Wu, G., et al.",
+    "year": 2021,
+    "venue": "bioRxiv",
+    "type": "Preprint",
+    "selected": false
+  },
+  {
+    "id": 31,
+    "title": "Decoding molecular and cellular heterogeneity of mouse nucleus accumbens",
+    "authors": "Chen, R., Blosser, T.R., Djekidel MN, Hao, J., Bhattacherjee, A., Chen, W., Tuesta, L.M., Zhuang, X., & Zhang, Y.",
+    "year": 2021,
+    "venue": "Nature Neuroscience",
+    "type": "Article",
+    "selected": false
+  },
+  {
+    "id": 32,
+    "title": "A transcriptional roadmap for 2C-like–to–pluripotent state transition",
+    "authors": "Fu, X., Djekidel MN, & Zhang, Y.",
+    "year": 2020,
+    "venue": "Science Advances",
+    "type": "Article",
+    "selected": false
+  },
+  {
+    "id": 33,
+    "title": "Cell type-specific transcriptional programs in mouse prefrontal cortex during adolescence and addiction",
+    "authors": "Bhattacherjee, A., Djekidel MN, Chen, R., Chen, W., Tuesta, L.M., & Zhang, Y.",
+    "year": 2019,
+    "venue": "Nature Communications",
+    "type": "Article",
+    "selected": false
+  },
+  {
+    "id": 34,
+    "title": "In vivo nuclear capture and molecular profiling identifies Gmeb1 as a transcriptional regulator essential for dopamine neuron function",
+    "authors": "Tuesta, L.M., Djekidel MN, Chen, R., Lu, F., Wang, W., Sabatini, B.L., & Zhang, Y.",
+    "year": 2019,
+    "venue": "Nature Communications",
+    "type": "Article",
+    "selected": false
+  },
+  {
+    "id": 35,
+    "title": "Myc and Dnmt1 impede the pluripotent to totipotent state transition in embryonic stem cells",
+    "authors": "Fu, X., Wu, X., Djekidel MN, & Zhang, Y.",
+    "year": 2019,
+    "venue": "Nature Cell Biology",
+    "type": "Article",
+    "selected": false
+  },
+  {
+    "id": 36,
+    "title": "Single-cell RNA-SEQ of mouse nucleus accumbens reveals a subtype of D1 medium spiny neurons",
+    "authors": "Chen, W., Chen, R., Djekidel MN, Bhattacherjee, A., Tuesta, L.M., & Zhang, Y.",
+    "year": 2019,
+    "venue": "Journal of Neurochemistry",
+    "type": "Article",
+    "selected": false
+  },
+  {
+    "id": 37,
+    "title": "Reprogramming of chromatin accessibility in somatic cell nuclear transfer is DNA replication independent",
+    "authors": "Djekidel MN, Inoue, A., Matoba, S., Suzuki, T., Zhang, C., Lu, F., Jiang, L., & Zhang, Y.",
+    "year": 2018,
+    "venue": "Cell Reports",
+    "type": "Article",
+    "selected": false
+  },
+  {
+    "id": 38,
+    "title": "FIND: Differential chromatin interactions detection using a spatial Poisson process",
+    "authors": "Djekidel MN, Chen, Y., & Zhang, M.Q.",
+    "year": 2018,
+    "venue": "Genome Research",
+    "type": "Article",
+    "selected": true,
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5848619/"
+  },
+  {
+    "id": 39,
+    "title": "Alterations of specific chromatin conformation affect ATRA-induced leukemia cell differentiation",
+    "authors": "Li, Y., He, Y., Liang, Z., Wang, Y., Chen, F., Djekidel MN, Li, G., Zhang, X., Xiang, S., Wang, Z., et al.",
+    "year": 2018,
+    "venue": "Cell Death & Disease",
+    "type": "Article",
+    "selected": false
+  },
+  {
+    "id": 40,
+    "title": "BL-Hi-C is an efficient and sensitive approach for capturing structural and regulatory chromatin interactions",
+    "authors": "Liang, Z., Li, G., Wang, Z., Djekidel MN, Li, Y., Qian, M.P., Zhang, M.Q., & Chen, Y.",
+    "year": 2017,
+    "venue": "Nature Communications",
+    "type": "Article",
+    "selected": false
+  },
+  {
+    "id": 41,
+    "title": "HiC-3DViewer: A new tool to visualize Hi-C data in 3D space",
+    "authors": "Djekidel MN, Wang, M., Zhang, M.Q., & Gao, J.",
+    "year": 2017,
+    "venue": "Quantitative Biology",
+    "type": "Article",
+    "selected": false
+  },
+  {
+    "id": 42,
+    "title": "Advances in computational ChIA-PET data analysis",
+    "authors": "He, C., Li, G., Nadhir, D.M., Chen, Y., Wang, X., & Zhang, M.Q.",
+    "year": 2016,
+    "venue": "Quantitative Biology",
+    "type": "Article",
+    "selected": false
+  },
+  {
+    "id": 43,
+    "title": "Developing bioimaging and quantitative methods to study 3D genome",
+    "authors": "Gao, J., Yang, X., Nadhir Djekidel, M., Wang, Y., Xi, P., & Zhang, M.Q.",
+    "year": 2016,
+    "venue": "Quantitative Biology",
+    "type": "Article",
+    "selected": false
+  },
+  {
+    "id": 44,
+    "title": "3CPET: finding co-factor complexes from ChIA-PET data using a hierarchical Dirichlet process",
+    "authors": "Djekidel MN, Liang, Z., Wang, Q., Hu, Z., Li, G., Chen, Y., & Zhang, M.Q.",
+    "year": 2015,
+    "venue": "Genome Biology",
+    "type": "Article",
+    "selected": true,
+    "url": "https://doi.org/10.1186/s13059-015-0851-6"
+  },
+  {
+    "id": 45,
+    "title": "The design and implementation of integrated E-Cart on E-Hyper Market",
+    "authors": "Khalid, H.G., Zuping, Z., Soliman, M.S., & Djekidel MN",
+    "year": 2011,
+    "venue": "Global Journal of Computer Science and Technology",
+    "type": "Article",
+    "selected": false
+  }
+]
