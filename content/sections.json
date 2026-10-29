@@ -1,0 +1,8 @@
+[
+  { "id": "about", "label": "About", "file": "about.md", "kicker": "Profile" },
+  { "id": "cv", "label": "CV", "file": "cv.md", "kicker": "Summary" },
+  { "id": "research", "label": "Research", "file": "research.md", "kicker": "Focus" },
+  { "id": "publications", "label": "Publications", "file": "publications.md", "kicker": "Work" },
+  { "id": "blog", "label": "Blog & Notes", "file": "blog.md", "kicker": "Writing" },
+  { "id": "contact", "label": "Contact", "file": "contact.md", "kicker": "Connect" }
+]
