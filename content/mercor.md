@@ -1,0 +1,1 @@
+At Mercor, I contributed bioinformatics expertise to LLM training and evaluation: authoring and reviewing expert solutions, designing challenges using synthetic and real-world data, and developing grading rubrics. This work also included designing and reviewing Docker-based bioinformatics environments.

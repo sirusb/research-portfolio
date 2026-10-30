@@ -114,6 +114,7 @@ def build():
     values['topics'] = ''.join(f'<li>{escape(topic)}</li>' for topic in profile['topics'])
     values['institutions'] = ''.join(f'<span>{escape(institution)}</span>' for institution in profile['institutions'])
     values['about'] = read_markdown('about.md')
+    values['mercor_summary'] = read_markdown('mercor.md')
     values['research_intro'] = read_markdown('research.md')
     values['publication_intro'] = read_markdown('publications.md')
     values['teaching_intro'] = read_markdown('teaching.md')

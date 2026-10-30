@@ -22,6 +22,7 @@ Visit <http://localhost:8000>.
 - `content/publications.json`: publication and software records, with authors, years, venues, output types, and selected entries. Set `selected` to `true` to feature a publication. A verified `url` links directly to the paper; entries without one offer a clearly labeled Scholar search.
 - `content/about.md`, `research.md`, `publications.md`, `teaching.md`, and `contact.md`: introductory copy.
 - `content/cv.md`: expandable research methods and software, awards, intellectual property, technical skills, and languages.
+- `content/mercor.md`: a brief summary of bioinformatics contributions to LLM training and evaluation at Mercor.
 - `content/sections.json`: navigation labels and order. Section IDs correspond to anchors in the template.
 - `templates/index.html`: the page template.
 - `styles.css`: colors, layout, responsive styles, and print styles.

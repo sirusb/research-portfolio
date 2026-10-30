@@ -764,6 +764,21 @@ h1 em {
   font-size: 14px;
   margin: 0;
 }
+.experience-summary {
+  margin-top: 4px;
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
+}
+.experience-summary h3 {
+  margin: 0 0 9px;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.experience-summary p {
+  margin: 0;
+  font-size: 14px;
+}
 .education-block {
   margin-top: 14px;
   padding-top: 25px;
