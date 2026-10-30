@@ -1,5 +1,6 @@
 ## Research methods & software
 
+- **[StageNest](https://stagenest.studio/).** Visual editor for building and configuring Nextflow pipelines.
 - **FIND.** Differential chromatin interaction detection using a spatial Poisson process.
 - **3CPET.** Finding co-factor complexes from ChIA-PET data using a hierarchical Dirichlet process.
 - **HiC-3DViewer.** A tool for visualizing Hi-C data in three-dimensional space.
