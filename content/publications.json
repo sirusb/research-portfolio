@@ -36,7 +36,8 @@
     "year": 2026,
     "venue": "Immunity",
     "type": "Article",
-    "selected": false
+    "selected": false,
+    "url": "https://doi.org/10.1016/j.immuni.2026.02.014"
   },
   {
     "id": 4,
@@ -45,7 +46,8 @@
     "year": 2025,
     "venue": "eLife",
     "type": "Article",
-    "selected": false
+    "selected": false,
+    "url": "https://doi.org/10.7554/eLife.106303"
   },
   {
     "id": 5,
@@ -54,7 +56,8 @@
     "year": 2025,
     "venue": "Journal of Translational Medicine",
     "type": "Article",
-    "selected": false
+    "selected": false,
+    "url": "https://doi.org/10.1186/s12967-025-07038-5"
   },
   {
     "id": 6,
@@ -63,7 +66,8 @@
     "year": 2025,
     "venue": "Allergy",
     "type": "Abstract",
-    "selected": false
+    "selected": false,
+    "url": "https://doi.org/10.1111/all.70138"
   },
   {
     "id": 7,
@@ -72,7 +76,8 @@
     "year": 2025,
     "venue": "Frontiers in Nutrition",
     "type": "Article",
-    "selected": false
+    "selected": false,
+    "url": "https://doi.org/10.3389/fnut.2025.1687082"
   },
   {
     "id": 8,
@@ -81,7 +86,8 @@
     "year": 2025,
     "venue": "Genome Biology",
     "type": "Article",
-    "selected": true
+    "selected": true,
+    "url": "https://doi.org/10.1186/s13059-025-03582-x"
   },
   {
     "id": 9,
@@ -90,7 +96,8 @@
     "year": 2025,
     "venue": "Frontiers in Cellular and Infection Microbiology",
     "type": "Article",
-    "selected": true
+    "selected": true,
+    "url": "https://doi.org/10.3389/fcimb.2024.1486409"
   },
   {
     "id": 10,
@@ -99,7 +106,8 @@
     "year": 2025,
     "venue": "Developmental Cell",
     "type": "Article",
-    "selected": true
+    "selected": true,
+    "url": "https://doi.org/10.1016/j.devcel.2024.12.014"
   },
   {
     "id": 11,
@@ -108,7 +116,8 @@
     "year": 2025,
     "venue": "Scientific Reports",
     "type": "Article",
-    "selected": true
+    "selected": true,
+    "url": "https://doi.org/10.1038/s41598-025-87596-2"
   },
   {
     "id": 12,
@@ -117,7 +126,8 @@
     "year": 2025,
     "venue": "Neuro-Oncology",
     "type": "Abstract",
-    "selected": false
+    "selected": false,
+    "url": "https://doi.org/10.1093/neuonc/noaf201.0022"
   },
   {
     "id": 13,
@@ -126,7 +136,8 @@
     "year": 2024,
     "venue": "Journal of Translational Medicine",
     "type": "Article",
-    "selected": false
+    "selected": false,
+    "url": "https://doi.org/10.1186/s12967-024-05928-8"
   },
   {
     "id": 14,
@@ -135,7 +146,8 @@
     "year": 2024,
     "venue": "PLOS Biology",
     "type": "Article",
-    "selected": true
+    "selected": true,
+    "url": "https://doi.org/10.1371/journal.pbio.3002760"
   },
   {
     "id": 15,
@@ -144,7 +156,8 @@
     "year": 2024,
     "venue": "Nature Communications",
     "type": "Article",
-    "selected": false
+    "selected": false,
+    "url": "https://doi.org/10.1038/s41467-024-50159-6"
   },
   {
     "id": 16,
@@ -153,7 +166,8 @@
     "year": 2024,
     "venue": "Journal of Experimental Medicine",
     "type": "Article",
-    "selected": false
+    "selected": false,
+    "url": "https://doi.org/10.1084/jem.20232068"
   },
   {
     "id": 17,
@@ -162,7 +176,8 @@
     "year": 2024,
     "venue": "Nature Immunology",
     "type": "Article",
-    "selected": false
+    "selected": false,
+    "url": "https://doi.org/10.1038/s41590-024-01843-8"
   },
   {
     "id": 18,
@@ -171,7 +186,8 @@
     "year": 2024,
     "venue": "Neuro-Oncology",
     "type": "Abstract",
-    "selected": false
+    "selected": false,
+    "url": "https://doi.org/10.1093/neuonc/noae064.459"
   },
   {
     "id": 19,
@@ -190,7 +206,8 @@
     "year": 2023,
     "venue": "Nature Communications",
     "type": "Article",
-    "selected": true
+    "selected": true,
+    "url": "https://doi.org/10.1038/s41467-023-40487-4"
   },
   {
     "id": 21,
@@ -199,7 +216,8 @@
     "year": 2023,
     "venue": "Genome Biology",
     "type": "Article",
-    "selected": false
+    "selected": false,
+    "url": "https://doi.org/10.1186/s13059-022-02843-3"
   },
   {
     "id": 22,
@@ -208,7 +226,8 @@
     "year": 2023,
     "venue": "Proceedings of the National Academy of Sciences",
     "type": "Article",
-    "selected": false
+    "selected": false,
+    "url": "https://doi.org/10.1073/pnas.2220134120"
   },
   {
     "id": 23,
@@ -217,7 +236,8 @@
     "year": 2023,
     "venue": "Nature Communications",
     "type": "Article",
-    "selected": false
+    "selected": false,
+    "url": "https://doi.org/10.1038/s41467-023-43044-1"
   },
   {
     "id": 24,
@@ -226,7 +246,8 @@
     "year": 2023,
     "venue": "Blood",
     "type": "Abstract",
-    "selected": false
+    "selected": false,
+    "url": "https://doi.org/10.1182/blood-2023-189450"
   },
   {
     "id": 25,
@@ -235,7 +256,8 @@
     "year": 2022,
     "venue": "Science Advances",
     "type": "Article",
-    "selected": false
+    "selected": false,
+    "url": "https://doi.org/10.1126/sciadv.abm1077"
   },
   {
     "id": 26,
@@ -244,7 +266,8 @@
     "year": 2022,
     "venue": "CRAN",
     "type": "Software",
-    "selected": false
+    "selected": false,
+    "url": "https://doi.org/10.32614/CRAN.package.uwot"
   },
   {
     "id": 27,
@@ -263,7 +286,8 @@
     "year": 2021,
     "venue": "Genome Biology",
     "type": "Article",
-    "selected": false
+    "selected": false,
+    "url": "https://doi.org/10.1186/s13059-021-02466-0"
   },
   {
     "id": 29,
@@ -272,7 +296,8 @@
     "year": 2021,
     "venue": "Nature Genetics",
     "type": "Article",
-    "selected": false
+    "selected": false,
+    "url": "https://doi.org/10.1038/s41588-021-00821-2"
   },
   {
     "id": 30,
@@ -281,7 +306,8 @@
     "year": 2021,
     "venue": "bioRxiv",
     "type": "Preprint",
-    "selected": false
+    "selected": false,
+    "url": "https://doi.org/10.1101/2021.05.14.444026"
   },
   {
     "id": 31,
@@ -290,7 +316,8 @@
     "year": 2021,
     "venue": "Nature Neuroscience",
     "type": "Article",
-    "selected": false
+    "selected": false,
+    "url": "https://doi.org/10.1038/s41593-021-00938-x"
   },
   {
     "id": 32,
@@ -299,7 +326,8 @@
     "year": 2020,
     "venue": "Science Advances",
     "type": "Article",
-    "selected": false
+    "selected": false,
+    "url": "https://doi.org/10.1126/sciadv.aay5181"
   },
   {
     "id": 33,
@@ -308,7 +336,8 @@
     "year": 2019,
     "venue": "Nature Communications",
     "type": "Article",
-    "selected": false
+    "selected": false,
+    "url": "https://doi.org/10.1038/s41467-019-12054-3"
   },
   {
     "id": 34,
@@ -317,7 +346,8 @@
     "year": 2019,
     "venue": "Nature Communications",
     "type": "Article",
-    "selected": false
+    "selected": false,
+    "url": "https://doi.org/10.1038/s41467-019-10267-0"
   },
   {
     "id": 35,
@@ -326,7 +356,8 @@
     "year": 2019,
     "venue": "Nature Cell Biology",
     "type": "Article",
-    "selected": false
+    "selected": false,
+    "url": "https://doi.org/10.1038/s41556-019-0343-0"
   },
   {
     "id": 36,
@@ -335,7 +366,8 @@
     "year": 2019,
     "venue": "Journal of Neurochemistry",
     "type": "Article",
-    "selected": false
+    "selected": false,
+    "url": "https://doi.org/10.1111/jnc.14776"
   },
   {
     "id": 37,
@@ -344,7 +376,8 @@
     "year": 2018,
     "venue": "Cell Reports",
     "type": "Article",
-    "selected": false
+    "selected": false,
+    "url": "https://doi.org/10.1016/j.celrep.2018.04.036"
   },
   {
     "id": 38,
@@ -354,7 +387,7 @@
     "venue": "Genome Research",
     "type": "Article",
     "selected": true,
-    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5848619/"
+    "url": "https://doi.org/10.1101/gr.212241.116"
   },
   {
     "id": 39,
@@ -363,7 +396,8 @@
     "year": 2018,
     "venue": "Cell Death & Disease",
     "type": "Article",
-    "selected": false
+    "selected": false,
+    "url": "https://doi.org/10.1038/s41419-017-0173-6"
   },
   {
     "id": 40,
@@ -372,7 +406,8 @@
     "year": 2017,
     "venue": "Nature Communications",
     "type": "Article",
-    "selected": false
+    "selected": false,
+    "url": "https://doi.org/10.1038/s41467-017-01754-3"
   },
   {
     "id": 41,
@@ -381,7 +416,8 @@
     "year": 2017,
     "venue": "Quantitative Biology",
     "type": "Article",
-    "selected": false
+    "selected": false,
+    "url": "https://doi.org/10.1007/s40484-017-0091-8"
   },
   {
     "id": 42,
@@ -390,7 +426,8 @@
     "year": 2016,
     "venue": "Quantitative Biology",
     "type": "Article",
-    "selected": false
+    "selected": false,
+    "url": "https://doi.org/10.1007/s40484-016-0080-3"
   },
   {
     "id": 43,
@@ -399,7 +436,8 @@
     "year": 2016,
     "venue": "Quantitative Biology",
     "type": "Article",
-    "selected": false
+    "selected": false,
+    "url": "https://doi.org/10.1007/s40484-016-0065-2"
   },
   {
     "id": 44,
@@ -418,6 +456,7 @@
     "year": 2011,
     "venue": "Global Journal of Computer Science and Technology",
     "type": "Article",
-    "selected": false
+    "selected": false,
+    "url": "https://computerresearch.org/index.php/computer/article/download/677/677/"
   }
 ]
