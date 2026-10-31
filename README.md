@@ -2,7 +2,6 @@
 
 A responsive academic portfolio with a white background, self-hosted Source Sans Pro typography, an optional dark theme, searchable publications, and a downloadable CV. Content is based on [`docs/MND_CV_Oct2026.pdf`](docs/MND_CV_Oct2026.pdf).
 
-The downloadable CV is a public copy with the phone number and telephone link removed.
 
 The site uses plain HTML, CSS, and JavaScript. The generated `index.html` includes all content, so reading and navigation work without JavaScript or a network connection. JavaScript adds publication search, year filters, selected/all views, active navigation, and a saved theme preference. The white theme is the default, including on devices set to dark mode.
 
