@@ -288,22 +288,16 @@ svg {
   width: 15px;
   height: 15px;
 }
-.profile-email,
-.profile-website {
+.profile-email {
   font-size: 14px;
   display: inline-flex;
   gap: 9px;
   align-items: center;
   text-decoration: none;
 }
-.profile-email .icon,
-.profile-website .icon {
+.profile-email .icon {
   width: 17px;
   height: 17px;
-}
-.profile-website {
-  display: flex;
-  margin-top: 8px;
 }
 .social-links {
   display: flex;
@@ -910,10 +904,6 @@ h1 em {
 .contact-actions .text-link {
   font-weight: 400;
 }
-.contact-website {
-  margin-top: 16px;
-  font-weight: 400;
-}
 .contact-footnote {
   margin: 17px 0 0 !important;
   font-size: 12px !important;
@@ -997,8 +987,7 @@ h1 em {
   .profile-name {
     font-size: 25px;
   }
-  .profile-email,
-  .profile-website {
+  .profile-email {
     font-size: 12px;
     gap: 6px;
   }
@@ -1180,14 +1169,10 @@ h1 em {
     font-size: 12px;
     margin: 5px 0 0;
   }
-  .profile-email,
-  .profile-website {
+  .profile-email {
     grid-column: 1/-1;
     margin-top: 18px;
     font-size: 13px;
-  }
-  .profile-website {
-    margin-top: 8px;
   }
   .social-links {
     grid-column: 2;
