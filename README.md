@@ -36,7 +36,9 @@ The builder uses only Python’s standard library. Its Markdown subset supports 
 
 ## Deployment
 
-The existing GitHub Actions workflow deploys the static site on pushes to `main` or a manual workflow run. There is no JavaScript build step, runtime framework, analytics service, or external font request.
+The existing GitHub Actions workflow deploys the static site on pushes to `main` or a manual workflow run. There is no JavaScript build step, runtime framework, or external font request.
+
+Google Analytics 4 uses measurement ID `G-QV211ZX4YE`. Its Google tag is defined in `templates/index.html` and included in the generated page. After deployment, use Google Analytics Realtime or Tag Assistant to verify data collection.
 
 ## Design references
 
