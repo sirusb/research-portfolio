@@ -18,7 +18,7 @@ Visit <http://localhost:8000>.
 ## Update content
 
 - `content/profile.json`: identity, links, CV path, research cards, appointments, education, and teaching entries.
-- `content/publications.json`: publication and software records, with authors, years, venues, output types, and selected entries. Set `selected` to `true` to feature a publication. A verified `url` links directly to the paper; entries without one offer a clearly labeled Scholar search.
+- `content/publications.json`: publication and software records, with authors, years, venues, output types, and selected entries. Set `selected` to `true` to feature a publication. A verified `url` links directly to the paper; entries without one offer a clearly labeled Scholar search. Publication totals and journal counts update when the site is rebuilt. The publication total excludes software; the journal chart also excludes preprints. Selecting a journal filters the list alongside search and year filters.
 - `content/about.md`, `research.md`, `publications.md`, `teaching.md`, and `contact.md`: introductory copy.
 - `content/cv.md`: expandable research methods and software, awards, intellectual property, technical skills, and languages.
 - `content/mercor.md`: a brief summary of bioinformatics contributions to LLM training and evaluation at Mercor.

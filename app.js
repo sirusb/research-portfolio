@@ -64,28 +64,40 @@
   const toggle = document.getElementById("publication-toggle");
   const clearButton = document.getElementById("publication-clear");
   const emptyState = document.getElementById("publication-empty");
+  const journalButtons = [...document.querySelectorAll("[data-journal]")];
+  let selectedJournal = "";
   let showAll = false;
 
   const filterPublications = () => {
     const query = search.value.trim().toLocaleLowerCase();
     const year = yearFilter.value;
-    const filtering = Boolean(query || year);
+    const filtering = Boolean(query || year || selectedJournal);
     let count = 0;
     publications.forEach((publication) => {
       const matchesQuery = publication.textContent
         .toLocaleLowerCase()
         .includes(query);
       const matchesYear = !year || publication.dataset.year === year;
+      const matchesJournal =
+        !selectedJournal || publication.dataset.venue === selectedJournal;
       const matchesSelection =
         filtering || showAll || publication.dataset.selected === "true";
-      publication.hidden = !(matchesQuery && matchesYear && matchesSelection);
+      publication.hidden = !(
+        matchesQuery && matchesYear && matchesJournal && matchesSelection
+      );
       if (!publication.hidden) count += 1;
     });
     status.textContent = filtering
-      ? `${count} of ${publications.length} outputs match`
+      ? `${count} of ${publications.length} outputs match${selectedJournal ? ` · ${selectedJournal}` : ""}`
       : showAll
         ? `All ${publications.length} research outputs`
-        : `${count} selected research outputs`;
+        : `${count} selected of ${publications.length} research outputs`;
+    journalButtons.forEach((button) => {
+      button.setAttribute(
+        "aria-pressed",
+        String(button.dataset.journal === selectedJournal),
+      );
+    });
     emptyState.hidden = count > 0;
     clearButton.hidden = !filtering;
     toggle.hidden = filtering || (publications.length === count && !showAll);
@@ -102,6 +114,14 @@
     });
   search.addEventListener("input", filterPublications);
   yearFilter.addEventListener("change", filterPublications);
+  journalButtons.forEach((button) => {
+    button.disabled = false;
+    button.addEventListener("click", () => {
+      selectedJournal =
+        selectedJournal === button.dataset.journal ? "" : button.dataset.journal;
+      filterPublications();
+    });
+  });
   toggle.addEventListener("click", () => {
     showAll = !showAll;
     filterPublications();
@@ -115,6 +135,7 @@
   const clearFilters = () => {
     search.value = "";
     yearFilter.value = "";
+    selectedJournal = "";
     filterPublications();
     search.focus({ preventScroll: true });
   };

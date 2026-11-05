@@ -4,6 +4,7 @@
 Content is escaped by default. Markdown supports paragraphs, headings, lists,
 strong/emphasis, and links; raw HTML is intentionally not supported.
 """
+from collections import Counter
 from html import escape
 import json
 from pathlib import Path
@@ -96,6 +97,53 @@ def read_markdown(name):
     return markdown((CONTENT / name).read_text())
 
 
+def publication_overview(publications):
+    """Count publications separately from software and chart journal entries."""
+    journal_entries = [p for p in publications if p['type'] not in ('Software', 'Preprint')]
+    journals = Counter(p['venue'] for p in journal_entries)
+    ranked = sorted(journals.items(), key=lambda item: (-item[1], item[0].casefold()))
+    preprints = sum(p['type'] == 'Preprint' for p in publications)
+    software = sum(p['type'] == 'Software' for p in publications)
+
+    def label(count, singular, plural=None):
+        return f'{count} {singular if count == 1 else plural or singular + "s"}'
+
+    total = label(len(publications) - software, 'publication')
+    breakdown = label(len(journal_entries), 'journal publication')
+    if preprints:
+        breakdown += ' and ' + label(preprints, 'preprint')
+    software_note = f'<p class="publication-software">Also listed: {label(software, "software contribution")}</p>' if software else ''
+    counts = f'''<div class="publication-totals">
+      <p class="publication-total">{total}</p>
+      <p class="publication-breakdown">{breakdown}</p>
+      {software_note}
+    </div>'''
+    if not ranked:
+        return counts
+
+    maximum = ranked[0][1]
+    rows = []
+    for journal, count in ranked:
+        name = escape(journal)
+        aria_label = escape(f'Filter by {journal}, {label(count, "publication")}', quote=True)
+        rows.append(f'''<li><button class="journal-row" type="button" data-journal="{name}" aria-label="{aria_label}" aria-pressed="false" aria-controls="publication-list" disabled>
+          <span class="journal-name">{name}</span>
+          <span class="journal-track" aria-hidden="true"><span class="journal-bar" style="width: {count / maximum * 100:.2f}%"></span></span>
+          <span class="journal-count">{count}</span>
+        </button></li>''')
+    visible = '\n'.join(rows[:8])
+    remaining = '\n'.join(rows[8:])
+    more = f'''<details class="journal-more"><summary>{label(len(rows) - 8, 'more journal')}</summary>
+      <ol class="journal-chart">{remaining}</ol></details>''' if remaining else ''
+    return counts + f'''<figure class="journal-distribution" aria-labelledby="journal-chart-title">
+      <figcaption><h3 id="journal-chart-title">Publications by journal</h3><span>{label(len(journals), 'journal')}</span></figcaption>
+      <p class="journal-chart-note">{label(len(journal_entries), 'journal publication')}, including conference abstracts. Preprints and software excluded.</p>
+      <p class="journal-chart-hint" data-publication-controls hidden>Select a journal to filter the list.</p>
+      <ol class="journal-chart">{visible}</ol>
+      {more}
+    </figure>'''
+
+
 def build():
     profile = json.loads((CONTENT / 'profile.json').read_text())
     publications = json.loads((CONTENT / 'publications.json').read_text())
@@ -117,6 +165,7 @@ def build():
     values['mercor_summary'] = read_markdown('mercor.md')
     values['research_intro'] = read_markdown('research.md')
     values['publication_intro'] = read_markdown('publications.md')
+    values['publication_overview'] = publication_overview(publications)
     values['teaching_intro'] = read_markdown('teaching.md')
     values['contact_intro'] = read_markdown('contact.md')
     values['research_cards'] = '\n'.join(f'''<article class="research-card">
@@ -133,7 +182,7 @@ def build():
         authors = re.sub(r'Djekidel MN|Djekidel N(?=[, ])|Nadhir Djekidel, M\.|Nadhir, D\.M\.', lambda m: f'<strong>{m[0]}</strong>', authors)
         kind = '' if p['type'] == 'Article' else f'<span class="publication-type">· {escape(p["type"])}</span>'
         link_label = 'Read paper' if p.get('url') else 'Find on Scholar'
-        publication_html.append(f'''<li class="publication" data-year="{p['year']}" data-selected="{str(p.get('selected', False)).lower()}">
+        publication_html.append(f'''<li class="publication" data-year="{p['year']}" data-selected="{str(p.get('selected', False)).lower()}" data-venue="{escape(p['venue'], quote=True)}">
           <span class="publication-year">{p['year']}</span>
           <article><h3><a href="{link}" target="_blank" rel="noopener noreferrer">{escape(p['title'])}<span class="sr-only"> (opens in a new tab)</span></a></h3>
           <p class="publication-authors">{authors}</p>
