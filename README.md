@@ -18,6 +18,7 @@ Visit <http://localhost:8000>.
 ## Update content
 
 - `content/profile.json`: identity, links, CV path, research cards, appointments, education, and teaching entries.
+- `content/journal-metrics.json`: sourced 2025 Journal Impact Factors (2026 release), used to order journals with exactly one publication, highest first. Missing or unverified impact factors appear last; equal values sort alphabetically. Update the metric year, values, sources, and check date together when refreshing this data. Journals with multiple publications keep their count-based order.
 - `content/publications.json`: publication and software records, with authors, years, venues, output types, and selected entries. Set `selected` to `true` to feature a publication. A verified `url` links directly to the paper; entries without one offer a clearly labeled Scholar search. Publication totals and journal counts update when the site is rebuilt. The publication total excludes software; the journal chart also excludes preprints. Selecting a journal filters the list alongside search and year filters.
 - `content/about.md`, `research.md`, `publications.md`, `teaching.md`, and `contact.md`: introductory copy.
 - `content/cv.md`: expandable research methods and software, awards, intellectual property, technical skills, and languages.

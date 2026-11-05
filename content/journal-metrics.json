@@ -1,0 +1,96 @@
+{
+  "metric": "Journal Impact Factor",
+  "metric_year": 2025,
+  "release_year": 2026,
+  "checked_on": "2026-11-05",
+  "reference_table": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf",
+  "reference_note": "The reference table labels its columns by release year: JIF 2026 corresponds to the 2025 metric year, as confirmed against publisher pages. Null means no verified current JIF; do not substitute CiteScore or a historical impact factor.",
+  "journals": {
+    "Nature": {
+      "impact_factor": 56.1,
+      "source": "https://www.nature.com/nature/journal-impact"
+    },
+    "Immunity": {
+      "impact_factor": 30.6,
+      "source": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf"
+    },
+    "Nature Immunology": {
+      "impact_factor": 26.5,
+      "source": "https://www.nature.com/nature-portfolio/about-journals/journal-metrics"
+    },
+    "Blood": {
+      "impact_factor": 23.9,
+      "source": "https://www.hematology.org/Resources/Publications"
+    },
+    "Nature Cell Biology": {
+      "impact_factor": 22.7,
+      "source": "https://www.nature.com/nature-portfolio/about-journals/journal-metrics"
+    },
+    "Cell Death & Disease": {
+      "impact_factor": 12.2,
+      "source": "https://www.nature.com/cddis/journal-information"
+    },
+    "Journal of Experimental Medicine": {
+      "impact_factor": 11.6,
+      "source": "https://rupress.org/jem/pages/journal-metrics"
+    },
+    "Allergy": {
+      "impact_factor": 11.3,
+      "source": "https://onlinelibrary.wiley.com/journal/13989995"
+    },
+    "Proceedings of the National Academy of Sciences": {
+      "impact_factor": 9.5,
+      "source": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf"
+    },
+    "Developmental Cell": {
+      "impact_factor": 9.2,
+      "source": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf"
+    },
+    "Cell Reports": {
+      "impact_factor": 7.7,
+      "source": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf"
+    },
+    "Frontiers in Immunology": {
+      "impact_factor": 7.0,
+      "source": "https://www.frontiersin.org/journals/immunology/about"
+    },
+    "PLOS Biology": {
+      "impact_factor": 6.9,
+      "source": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf"
+    },
+    "Human Reproduction": {
+      "impact_factor": 6.8,
+      "source": "https://academic.oup.com/humrep/pages/about"
+    },
+    "Genome Research": {
+      "impact_factor": 6.3,
+      "source": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf"
+    },
+    "Frontiers in Cellular and Infection Microbiology": {
+      "impact_factor": 5.5,
+      "source": "https://www.frontiersin.org/journals/cellular-and-infection-microbiology/about"
+    },
+    "Frontiers in Nutrition": {
+      "impact_factor": 5.5,
+      "source": "https://www.frontiersin.org/journals/nutrition/about"
+    },
+    "Scientific Reports": {
+      "impact_factor": 4.9,
+      "source": "https://www.nature.com/srep/about"
+    },
+    "Journal of Neurochemistry": {
+      "impact_factor": 4.6,
+      "source": "https://onlinelibrary.wiley.com/journal/14714159"
+    },
+    "eLife": {
+      "impact_factor": null,
+      "source": "https://elifesciences.org/inside-elife/7da92a51/the-elife-model-three-year-update",
+      "note": "The publisher confirms that eLife has forgone the impact factor."
+    },
+    "Global Journal of Computer Science and Technology": {
+      "impact_factor": null,
+      "source": "https://www.niic.nsc.ru/phocadownload/publications/2025/JCR_JournalImpactFactor_2026.pdf",
+      "note": "Not found in the checked JCR table; no current Clarivate JIF verified."
+    }
+  }
+}

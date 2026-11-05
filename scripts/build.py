@@ -97,11 +97,16 @@ def read_markdown(name):
     return markdown((CONTENT / name).read_text())
 
 
-def publication_overview(publications):
+def publication_overview(publications, journal_metrics):
     """Count publications separately from software and chart journal entries."""
     journal_entries = [p for p in publications if p['type'] not in ('Software', 'Preprint')]
     journals = Counter(p['venue'] for p in journal_entries)
-    ranked = sorted(journals.items(), key=lambda item: (-item[1], item[0].casefold()))
+    def journal_order(item):
+        name, count = item
+        impact_factor = journal_metrics['journals'].get(name, {}).get('impact_factor') if count == 1 else None
+        return (-count, -impact_factor if impact_factor is not None else 1, name.casefold())
+
+    ranked = sorted(journals.items(), key=journal_order)
     preprints = sum(p['type'] == 'Preprint' for p in publications)
     software = sum(p['type'] == 'Software' for p in publications)
 
@@ -134,6 +139,7 @@ def publication_overview(publications):
     visible = '\n'.join(rows[:8])
     remaining = '\n'.join(rows[8:])
     more = f'''<details class="journal-more"><summary>{label(len(rows) - 8, 'more journal')}</summary>
+      <p class="journal-chart-note">Journals with one publication are ordered by {escape(str(journal_metrics['metric_year']))} impact factor, highest first. Unavailable values appear last.</p>
       <ol class="journal-chart">{remaining}</ol></details>''' if remaining else ''
     return counts + f'''<figure class="journal-distribution" aria-labelledby="journal-chart-title">
       <figcaption><h3 id="journal-chart-title">Publications by journal</h3><span>{label(len(journals), 'journal')}</span></figcaption>
@@ -147,6 +153,7 @@ def publication_overview(publications):
 def build():
     profile = json.loads((CONTENT / 'profile.json').read_text())
     publications = json.loads((CONTENT / 'publications.json').read_text())
+    journal_metrics = json.loads((CONTENT / 'journal-metrics.json').read_text())
     sections = json.loads((CONTENT / 'sections.json').read_text())
     ids = [section['id'] for section in sections]
     if len(set(ids)) != len(ids):
@@ -165,7 +172,7 @@ def build():
     values['mercor_summary'] = read_markdown('mercor.md')
     values['research_intro'] = read_markdown('research.md')
     values['publication_intro'] = read_markdown('publications.md')
-    values['publication_overview'] = publication_overview(publications)
+    values['publication_overview'] = publication_overview(publications, journal_metrics)
     values['teaching_intro'] = read_markdown('teaching.md')
     values['contact_intro'] = read_markdown('contact.md')
     values['research_cards'] = '\n'.join(f'''<article class="research-card">
